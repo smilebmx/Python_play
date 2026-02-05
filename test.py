@@ -111,7 +111,6 @@ print(f"File saved (replaced if existed): {path}")
 # transformations...
 logging.info("Output file created")
 print("new Branch test")
-print("new Branch test")
 #print(sum_sales)  
 #print(sum_sales_group)  
 #print(monthly_sales)
