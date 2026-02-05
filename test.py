@@ -42,7 +42,7 @@ sys.stderr = Tee(sys.stderr, open(log_file, "a", encoding="utf-8"))
 
 # --- Now everything will print and log ---
 print("Python script started")
-#logging.info("Logging initialized") #logging infrmation
+#logging.info("Logging initialized") #logging information
 
 # Connection string
 connection_string = (
@@ -110,7 +110,7 @@ tableau_df.to_csv(path, index=False)
 print(f"File saved (replaced if existed): {path}")
 # transformations...
 logging.info("Output file created")
-
+print("new Branch test")
 #print(sum_sales)  
 #print(sum_sales_group)  
 #print(monthly_sales)
